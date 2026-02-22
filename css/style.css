@@ -14,6 +14,7 @@ body {
 }
 
 
+
 nav {
     position: fixed;
     width: 100%;
@@ -46,6 +47,10 @@ nav a {
     justify-content: space-between;
     align-items: center;
     padding: 150px 100px;
+
+    p{
+        width: 60ch;
+    }
 }
 
 .hero-text {
@@ -59,12 +64,17 @@ nav a {
     background: #DFDFDF;
     border-radius: 20px;
     overflow: hidden;
+    border: 1px solid;
+    border-color: aqua;
 }
 
 .hero-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border: 1px solid;
+    border-color: aqua;
+    border-radius: 10px;
 }
 
 .second-name {
@@ -76,6 +86,18 @@ nav a {
     background: #1A1A1A; 
     color: #DFDFDF;
     padding: 80px 100px;
+
+}
+
+.about h2{
+    justify-content: center;
+    text-align: center;
+
+}
+.midtext{
+    justify-content: center;
+    text-align: center;
+
 }
 
 .about-content {
@@ -90,12 +112,19 @@ nav a {
     background: #828282;
     flex-shrink: 0;
     overflow: hidden;
+    border: 1px solid;
+    border-color: aqua;
+    border-radius: 10px;
 }
 
-.about-text p {
+.about-text p h2{
     font-size: 14px;
     margin-top: 10px;
     color: #DFDFDF;
+}
+.about-text h3{
+    justify-content: flex-start;
+    text-align: flex-start;
 }
 
 .about-img img {
@@ -103,6 +132,9 @@ nav a {
     max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: fill;
+    border: 1px solid;
+    border-color: aqua;
+    border-radius: 10px;
 }
 
 .skills {
@@ -120,12 +152,16 @@ nav a {
 .skill-container {
     display: flex;
     gap: 20px;
+
 }
 
 .skill-card {
     flex: 1;
     background: #828282;
     padding: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+
 }
 
 .skill-icon {
@@ -179,6 +215,15 @@ nav a {
     height: 180px;
     background: #DFDFDF;
     margin-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: aqua;
+}
+.project-img-placeholder img{
+    width: 100%;
+    height: auto;
+
 }
 
 .view-btn {
